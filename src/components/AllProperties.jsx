@@ -1,7 +1,7 @@
 import React from "react";
 import { properties } from "../data";
 
-import iconfilter from "../assets/icon.png";
+import iconfilter from "../assets/Icon.png";
 import PropertyCard from "./PropertyCard";
 
 const AllProperties = () => {
