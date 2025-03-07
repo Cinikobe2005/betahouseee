@@ -19,7 +19,7 @@ const Register = () => {
   const onSubmit = async (data) => {
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/v1/register",
+        "https://beta-servver.onrender.com/api/v1/login",
         data
       );
       if (response.status === 201) {

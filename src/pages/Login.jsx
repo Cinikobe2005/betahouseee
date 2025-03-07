@@ -19,7 +19,7 @@ const Login = () => {
     try {
       // Replace with your actual API endpoint
       const response = await axios.post(
-        "http://localhost:3000/api/v1/login", 
+        "https://beta-servver.onrender.com/api/v1/login",
         data
       );
       if (response.status === 200) {
